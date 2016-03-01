@@ -2,7 +2,9 @@ package lesson1;
 
 public class MarsApplication {
 	public static void main(String[] arg) {
+		
 		MarsRobot spirit = new MarsRobot();
+		
 		spirit.status = "exploring";
 		spirit.speed = 2;
 		spirit.temperature = -60;
